@@ -7,6 +7,6 @@ class Program
         // Boucle boucle = new Boucle();
         // Condition condition = new Condition();
         // Tableau tableau = new Tableau();
-        Variable variable = new Variable();
+        // Variable variable = new Variable();
     }
 }

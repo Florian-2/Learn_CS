@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dyma", "Dyma\Dyma.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bases", "Bases\Bases.csproj", "{9EE2D879-2A12-4A0A-936A-23017C7EAE24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions", "Functions\Functions.csproj", "{8DB168EC-A3CA-4367-B25A-A81463020D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String", "String\String.csproj", "{BFABBE83-F521-4B90-A111-980A04AD7E52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{9EE2D879-2A12-4A0A-936A-23017C7EAE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EE2D879-2A12-4A0A-936A-23017C7EAE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EE2D879-2A12-4A0A-936A-23017C7EAE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB168EC-A3CA-4367-B25A-A81463020D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB168EC-A3CA-4367-B25A-A81463020D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB168EC-A3CA-4367-B25A-A81463020D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB168EC-A3CA-4367-B25A-A81463020D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFABBE83-F521-4B90-A111-980A04AD7E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFABBE83-F521-4B90-A111-980A04AD7E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFABBE83-F521-4B90-A111-980A04AD7E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFABBE83-F521-4B90-A111-980A04AD7E52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

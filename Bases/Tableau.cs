@@ -6,9 +6,9 @@ public class Tableau
     {
         /* Les Tableaux
 
-            Les tableau  en C# ne sont pas l'équivalent des tableau en Javascript, ça se rapproche plus des "Tuple" en TypeScript donc la taille est définie à l'initialisation ne peut pas être modifié.
+            Les tableau en C# ne sont pas l'équivalent des tableau en Javascript, ici la taille du tableau est définie à l'initialisation ne peut pas être modifié et la syntaxe est différente.
 
-            Pour avoir quelque chose de similaire, il faut allez voir du côté des List ou Collection.
+            Pour avoir quelque chose de similaire au tableau en JS, il faut allez voir du côté des List ou Collection.
         */
 
         // Tableau (nullable) de petit nombre
@@ -35,5 +35,15 @@ public class Tableau
         // Tableau de string avec des valeurs prédéfinie
         string[] person = { "Florian", "John", "David" };
         Console.WriteLine(person[1]);
+    }
+
+    public static void Tuple()
+    {
+        (string firstname, string lastname) user = ("John", "Doe");
+        Console.WriteLine(user.firstname); // John
+
+        // Nouvelle syntaxe
+        (string firstname, string lastname) = ("John", "Doe");
+        Console.WriteLine(firstname); // John
     }
 }
